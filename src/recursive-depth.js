@@ -1,8 +1,7 @@
-// const CustomError = require("../extensions/custom-error");
+ const CustomError = require("../extensions/custom-error");
 
 
-// module.exports =
-    class DepthCalculator {
+ module.exports = class DepthCalculator {
 
   constructor() {
     this.depthCount = 0;
